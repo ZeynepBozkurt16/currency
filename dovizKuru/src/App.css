@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    background-image: url(image/currency-basket.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* margin: 0 auto;, genelde yatay hizalama için kullanılır.
+Anlamı: */
+/* Üst ve alt kenarlarda 0 birim boşluk bırakır. */
+/* Sol ve sağ kenarlarda otomatik boşluk bırakır. Bu, öğeyi yatay olarak ortalamak için kullanılır. */

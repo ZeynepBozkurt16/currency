@@ -1,0 +1,126 @@
+/* .currency-div{
+  display: flex; 
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  border: 2px solid darkblue;
+}
+
+.amount{
+  width: 80px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.currency-option{
+  width: 70px;
+  height: 30px;
+  margin-right:10px ;
+}
+
+.to-currency-option{
+  width: 70px;
+  height: 30px;
+  margin-right:10px ;
+}
+
+.result{
+  width: 80px;
+  height: 25px;
+}
+.boxes{
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+
+}
+.title{
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.btn{
+  width: 80px;
+  height: 30px;
+  background-color: rgb(17, 68, 163);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer
+} */
+
+
+.currency-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid darkblue;
+  border-radius: 10px; /* Köşeleri yumuşatır */
+  padding: 20px; /* İçerik ile kenarlar arasındaki boşluk */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif bir gölge */
+  background: linear-gradient(to bottom, #eaf4fc, #d0e8fc); /* Hafif bir degrade arka plan */
+}
+
+.title {
+  width: 100%;
+  background-color: #002244;
+  color: #fff;
+  padding: 10px 0; /* İçerik üst-alt boşluk */
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0; /* Üst köşeleri yuvarla */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif bir gölge */
+}
+
+.amount,
+.currency-option,
+.to-currency-option,
+.result {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px; /* İçerik iç boşluk */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif bir gölge */
+}
+
+.amount,
+.result {
+  text-align: center; /* Sayılar ortalansın */
+}
+
+.boxes {
+  margin-bottom: 25px;
+  margin-right: 25px;
+  margin-left: 25px;
+  display: flex; /* Elemanları yatay hizalamak için */
+  align-items: center;
+  gap: 10px; /* Elemanlar arasında boşluk */
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  background-color: #0044cc;
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Düğmeye yuvarlak görünüm */
+  margin-bottom: 15px;
+  font-weight: bold;
+  cursor: pointer; /* Düğme üzerine gelindiğinde el işareti */
+  transition: background-color 0.3s ease; /* Hover için geçiş */
+}
+
+.btn:hover {
+  background-color: #778aaf; /* Hover efekti için renk değişimi */
+}
+
+.fa-long-arrow-alt-right {
+  color: #000000;
+  margin: 0 10px; /* Simgeye boşluk ekler */
+  font-size: 20PX;
+}
